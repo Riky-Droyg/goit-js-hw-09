@@ -1,7 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import "/css/styles.css"
-
+import '/css/styles.css';
 
 const images = [
   {
@@ -96,3 +95,4 @@ const lightbox = new SimpleLightbox('.gallery-link', {
   captionsData: 'alt', // брати підпис із alt картинки
   captionDelay: 250, // затримка перед показом підпису (мс)
 });
+
