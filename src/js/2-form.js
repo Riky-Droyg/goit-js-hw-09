@@ -27,9 +27,6 @@ form.addEventListener('submit', e => {
     alert('feedback-form-state');
     return;
   } else {
-    console.log(
-      `Відправлено:, email:${email.value}, message:${message.value} `
-    );
     localStorage.removeItem(STORAGE_KEY);
     form.reset();
     formData = { email: '', message: '' };
